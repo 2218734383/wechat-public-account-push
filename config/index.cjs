@@ -23,15 +23,20 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oRs5C559TyziV2J-ugXEi1qIpQ5c',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'KFXJ31qovEeqy7Us-7FFN-rgkQcA_ZeBSHQ3SOCBgSg',
+      useTemplateId: '1Thv9nxy_sFVkFZiWq8DZ4aYknZxYRW5DKwZHZTB780',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-23',
-      festivals: [
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '欣仔', year: '2000', date: '08-23',
-        },
+      birthdays:[
+        {"name":"欣仔","year":"2000","date":"08-23","type":"new"},
       ],
+      
+      
+//       festivals: [
+//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//         {
+//           type: '生日', name: '欣仔', year: '2000', date: '08-23',
+//         },
+//       ],
       // 我们在一起已经有xxxx天了的配置
 //       customizedDateList: [
 //         // 在一起的日子
