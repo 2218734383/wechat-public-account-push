@@ -31,15 +31,12 @@ const USER_CONFIG = {
         {
           type: '生日', name: '欣仔', year: '2000', date: '08-23',
         },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        },
       ],
       // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },     
-      ],
+//       customizedDateList: [
+//         // 在一起的日子
+//         { keyword: 'love_day', date: '2022-09-08' },     
+//       ],
     },
   ],
 
